@@ -44,4 +44,16 @@ int main(){
     }
     
     return 0;
+
 }
+
+
+/*==========OUTPUTS==========
+Enter Salary of Employee: 50000
+Enter the details as follows: 
+Research Projects: 1
+Research Publications: 2
+Profit: 100000000
+New Project: 0
+New Salary is: 60000
+*/
