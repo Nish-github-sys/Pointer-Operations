@@ -1,0 +1,33 @@
+//Name: Nishka Ranadive
+//PRN: 24070123082
+//Exp-10
+
+//Program-5
+#include<iostream>
+using namespace std;
+
+void change_val(int &x, int val){
+    x=val;
+}
+
+int main(){
+
+    int arr[5]={1, 2, 3, 4, 5};
+    int arr1[5]={2, 4, 6, 8, 10};
+
+    cout<<"Initial Array: "<<endl;
+    for(int i=0; i<5; i++){
+    cout<<arr[i]<<" ";
+    }
+
+    for(int i=0; i<5; i++){
+        change_val(arr[i], 1000);
+    }
+
+    cout<<"\nChanged Array: "<<endl;
+    for(int i=0; i<5; i++){
+        cout<<arr[i]<<" ";
+    }
+
+    return 0;
+}
