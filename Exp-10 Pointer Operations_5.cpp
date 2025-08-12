@@ -21,7 +21,7 @@ int main(){
     }
 
     for(int i=0; i<5; i++){
-        change_val(arr[i], 1000);
+        change_val(arr[i], arr1[i]);
     }
 
     cout<<"\nChanged Array: "<<endl;
@@ -30,4 +30,13 @@ int main(){
     }
 
     return 0;
+
 }
+
+
+/*==========OUTPUTS==========
+Initial Array: 
+1 2 3 4 5 
+Changed Array: 
+2 4 6 8 10 
+*/
