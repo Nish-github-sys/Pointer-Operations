@@ -3,6 +3,7 @@
 //Exp-10
 
 //Program-3
+
 //Pass by Reference
 #include<iostream>
 using namespace std;
@@ -27,4 +28,11 @@ int main(){
     cout<<"Swapped Values are: "<<a<<" & "<<b;
 
     return 0;
+
 }
+
+
+/*==========OUTPUTS==========
+Values before swapping are: 5 & 10
+Swapped Values are: 10 & 5
+*/
